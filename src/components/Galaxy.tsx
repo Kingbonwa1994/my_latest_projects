@@ -53,7 +53,7 @@ export function Galaxy(props: JSX.IntrinsicElements['group']) {
 
     return [positions, colors]
   }, [nodes])
-  const starTexture = useLoader(THREE.TextureLoader, '/star.jpg')
+  const starTexture = useLoader(THREE.TextureLoader, '/starz.jpg')
 
   // slowly rotate the galaxy
   useFrame(({ clock }) => {
