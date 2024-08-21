@@ -1,7 +1,7 @@
+import { Cover } from "./ui/cover"
 
-
-export default function slide1() {
+export default function SlideOne() {
   return (
-    <div>slide1</div>
+    <div>I am currently building <Cover>Full stack Applications</Cover></div>
   )
 }
