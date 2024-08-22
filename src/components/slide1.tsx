@@ -1,4 +1,4 @@
-import { Cover } from "./ui/cover"
+
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 export default function SlideOne() {
@@ -33,38 +33,12 @@ export default function SlideOne() {
     },
    
   ];
-  const words2 = [
-    {
-      text: "Currently",
-      className: "text-orange-500 dark:text-orange-400", 
-    },
-    {
-      text: "working",
-      className: "text-lime-500 dark:text-lime-400", 
-    },
-    {
-      text: "on",
-      className: "text-rose-500 dark:text-rose-400", 
-    },
-    {
-      text: "numerous",
-      className: "text-cyan-500 dark:text-cyan-400", 
-    },
-    {
-      text: "apps.",
-      className: "text-violet-500 dark:text-violet-400", 
-    },
-  ]
+  
   return (
-    <div className="flex">
-      <Cover>
-        <TypewriterEffectSmooth
+    <div className="z-10 flex">
+              <TypewriterEffectSmooth
           words={words}
         />
-         <TypewriterEffectSmooth
-          words={words2}
-        />
-      </Cover>
     </div>
   )
 }

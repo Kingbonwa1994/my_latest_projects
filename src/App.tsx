@@ -2,10 +2,11 @@ import { useEffect, useRef } from 'react';
 import { Canvas } from "@react-three/fiber";
 import { Galaxy } from "./components/Galaxy";
 import SlideOne from "./components/slide1";
-import * as gsap  from 'gsap';
+import  gsap  from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 
+gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
 
@@ -76,14 +77,15 @@ export default function App() {
   }, []);
 
   return (
-    <div className="h-screen relative flex items-center justify-center">
-        <Canvas className="relative"><Galaxy /></Canvas>
-        <div className="absolute top-24 justify-center"><SlideOne /></div>
-        <div className="slide" ref={slide1Ref}>
-        {/* Slide 1 content */}
-      </div>
+    <div className="h-screen relative flex flex-col items-center justify-center">
+        <Canvas className="relative">
+          <Galaxy />
+        </Canvas>
+        <div className="slide absolute top-24 justify-center" ref={slide1Ref}>
+          <SlideOne />
+        </div>
       <div className="slide" ref={slide2Ref}>
-        {/* Slide 2 content */}
+          <div>Manje vele kubi</div>
       </div>
       <div className="slide" ref={slide3Ref}>
         {/* Slide 3 content */}
