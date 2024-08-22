@@ -4,7 +4,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 
 function Footer() {
   return (
-    <div className="text-center flex gap-4">
+    <div className="text-center flex sm:gap-4">
     <SocialIconButton icon={<FaWhatsapp/>} link="https://wa.me/+27659505243" />
       <SocialIconButton icon={<FaSquareXTwitter />} link="https://x.com/BonwaMdluli" />
       <SocialIconButton icon={<FaLinkedin />} link="https://linkedin.com/in/mdluli-bonwayinkosi-b1505b217/" />
