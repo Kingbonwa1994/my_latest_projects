@@ -6,7 +6,7 @@ export function FlipWordsDemo() {
 
   return (
     <div className="h-[40rem] mt-8 flex justify-center items-center px-4">
-      <div className="text-4xl mx-auto font-normal text-white">
+      <div className="text-4xl text-center mx-auto font-normal text-white">
          I Build
         <FlipWords words={words} /> <br />
         <div className="text-center">

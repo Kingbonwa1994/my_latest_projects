@@ -5,15 +5,15 @@ export default function SlideOne() {
     const words = [
     {
       text: "My",
-      className: "text-red-500 dark:text-red-400", 
+      className: "text-red-200", 
     },
     {
       text: "name",
-      className: "text-green-500 dark:text-green-400", 
+      className: "text-green-200 dark:text-green-400", 
     },
     {
       text: "is",
-      className: "text-yellow-500 dark:text-yellow-400", 
+      className: "text-yellow-500 dark:text-yellow-800", 
     },
     {
       text: "Bonwa,",
