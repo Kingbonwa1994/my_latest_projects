@@ -79,7 +79,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="h-screen relative flex flex-col items-center justify-center bg-gradient-to-r from-purple-500 via-red-500 to-green-500">
+    <div className="h-screen top-0 left-0 relative flex flex-col items-center justify-center bg-gradient-to-r from-purple-500 via-red-500 to-green-500">
         <div className='absolute top-0  left-0 h-[100%] w-[100%]'>
         <Canvas >
           <Galaxy />
