@@ -4,7 +4,9 @@ import { Galaxy } from "./components/Galaxy";
 import SlideOne from "./components/slide1";
 import  gsap  from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import Footer from './components/footer';
+import JobTitle from './components/jobTitle';
+import { FlipWordsDemo } from './components/products';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,22 +80,19 @@ export default function App() {
 
   return (
     <div className="h-screen relative flex flex-col items-center justify-center">
-        <Canvas className="z-0  relative">
+        <Canvas className="relative">
           <Galaxy />
         </Canvas>
-        <div className=" absolute top-24 justify-center" ref={slide1Ref}>
+        <div className="absolute top-24 flex flex-col items-center justify-center" ref={slide1Ref}>
           <SlideOne />
+          <JobTitle />
         </div>
-      <div className="slide" ref={slide2Ref}>
-          <div>Manje vele kubi</div>
-      </div>
-      <div className="slide" ref={slide3Ref}>
-        {/* Slide 3 content */}
-      </div>
-      <div className="slide" ref={slide4Ref}>
-        {/* Slide 4 content */}
-      </div>
+
+        <div className='flex-col absolute items-center justify-center'>
+          <FlipWordsDemo />
+        </div>
         
+        <Footer />
     </div>
       
     

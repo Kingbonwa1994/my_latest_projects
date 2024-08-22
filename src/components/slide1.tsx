@@ -19,19 +19,7 @@ export default function SlideOne() {
       text: "Bonwa,",
       className: "text-purple-500 dark:text-purple-400", 
     },
-    {
-      text: "based",
-      className: "text-pink-500 dark:text-pink-400", 
-    },
-    {
-      text: "in",
-      className: "text-teal-500 dark:text-teal-400", 
-    },
-    {
-      text: "Johannesburg.",
-      className: "text-indigo-500 dark:text-indigo-400", 
-    },
-   
+
   ];
   
   return (
