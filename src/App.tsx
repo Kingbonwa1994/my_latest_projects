@@ -79,11 +79,11 @@ export default function App() {
   }, []);
 
   return (
-    <div className="h-screen relative flex flex-col items-center justify-center">
+    <div className="h-screen relative flex flex-col items-center justify-center bg-gradient-to-r from-purple-500 via-red-500 to-green-500">
         <Canvas className="relative">
           <Galaxy />
         </Canvas>
-        <div className="absolute top-24 flex flex-col items-center justify-center" ref={slide1Ref}>
+        <div className="absolute top-24 flex flex-col justify-between  items-center" ref={slide1Ref}>
           <SlideOne />
           <JobTitle />
         </div>
