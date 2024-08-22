@@ -78,10 +78,10 @@ export default function App() {
 
   return (
     <div className="h-screen relative flex flex-col items-center justify-center">
-        <Canvas className="relative">
+        <Canvas className="z-0  relative">
           <Galaxy />
         </Canvas>
-        <div className="slide absolute top-24 justify-center" ref={slide1Ref}>
+        <div className=" absolute top-24 justify-center" ref={slide1Ref}>
           <SlideOne />
         </div>
       <div className="slide" ref={slide2Ref}>

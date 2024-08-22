@@ -5,31 +5,31 @@ export default function SlideOne() {
     const words = [
     {
       text: "My",
-      className: "text-red-500 dark:text-red-400", 
+      className: "text-red-900", 
     },
     {
       text: "name",
-      className: "text-green-500 dark:text-green-400", 
+      className: "text-gradient-to-r py-4 from-purple-500 via-violet-500", 
     },
     {
       text: "is",
-      className: "text-yellow-500 dark:text-yellow-400", 
+      className: "text-gradient-to-r py-4 from-purple-500 via-violet-500", 
     },
     {
       text: "Bonwa,",
-      className: "text-purple-500 dark:text-purple-400", 
+      className: "text-gradient-to-r py-4 from-purple-500 via-violet-500", 
     },
     {
       text: "based",
-      className: "text-pink-500 dark:text-pink-400", 
+      className: " text-gradient-to-r py-4 from-purple-500 via-violet-500", 
     },
     {
       text: "in",
-      className: "text-teal-500 dark:text-teal-400", 
+      className: " text-gradient-to-r py-4 from-purple-500 via-violet-500", 
     },
     {
       text: "Johannesburg.",
-      className: "text-indigo-500 dark:text-indigo-400", 
+      className: " text-gradient-to-r py-4 from-purple-500 via-violet-500", 
     },
    
   ];
