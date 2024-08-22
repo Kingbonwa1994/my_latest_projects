@@ -80,18 +80,15 @@ export default function App() {
 
   return (
     <div className="h-screen relative flex flex-col items-center justify-center bg-gradient-to-r from-purple-500 via-red-500 to-green-500">
-        <Canvas className="relative">
+        <div className='absolute top-0  left-0 h-[100%] w-[100%]'>
+        <Canvas >
           <Galaxy />
         </Canvas>
-        <div className="absolute top-24 flex flex-col justify-between  items-center" ref={slide1Ref}>
-          <SlideOne />
-          <JobTitle />
-        </div>
-
-        <div className='flex-col absolute items-center justify-center'>
-          <FlipWordsDemo />
         </div>
         
+          <SlideOne />
+          <JobTitle />
+          <FlipWordsDemo />
         <Footer />
     </div>
       
