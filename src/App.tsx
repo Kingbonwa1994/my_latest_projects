@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';';
+import { useEffect, useRef } from 'react';
 import { Canvas } from "@react-three/fiber";
 import { Galaxy } from "./components/Galaxy";
 import SlideOne from "./components/slide1";
